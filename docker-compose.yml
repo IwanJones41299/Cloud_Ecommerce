@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  expressserver:
+    image: expressserver
+    build:
+      context: server
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 5000:5000
+  mongodb:
+      image: mongo:latest
+      restart: always
+      ports:
+        - "27017:27017"
+      environment:
+        MONGO_INITDB_ROOT_USERNAME: "docker"
+        MONGO_INITDB_ROOT_PASSWORD: "password"
+        MONGO_INITDB_DATABASE: "mydb"
