@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './bootstrap.min.css';
+import './componentStyles.scss';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
