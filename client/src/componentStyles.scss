@@ -1,10 +1,24 @@
 //variables
 
-//browser
+//all
 .optionBar{
     display: flex !important;
     justify-content: center !important;
+    margin-bottom: 7%;
 }
+
+.nav{
+    flex-wrap: nowrap;
+}
+
+.nav-link{
+    padding: 0.3rem 0.5rem !important;
+}
+
+.rating span{
+    margin: 0.1rem
+}
+//browser
 
 
 //mobile
