@@ -2,11 +2,11 @@ const products = [
     {
         _id: '1',
         name: 'Candle Light No1',
-        image: '/images/placeholder.webp',
+        image: '/images/candle_light.png',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
         size: '250g',
         category: 'Coffee Beans',
-        price: 8.50,
+        price: 8.99,
         stock: 4,
         rating: 4,
         numReviews: 4,
@@ -15,7 +15,7 @@ const products = [
     {
         _id: '2',
         name: 'Anthracite No2',
-        image: '/images/placeholder.webp',
+        image: '/images/anthracite2.png',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
         sizes: '500g',
         category: 'Coffee Beans',
@@ -28,7 +28,7 @@ const products = [
     {
         _id: '3',
         name: 'Bwenda',
-        image: '/images/placeholder.webp',
+        image: '/images/bwenda.jpg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
         sizes: '1kg',
         category: 'Coffee Beans',
@@ -41,7 +41,7 @@ const products = [
     {
         _id: '4',
         name: 'Sage Barista Pro Espresso Machine',
-        image: '/images/placeholder.webp',
+        image: '/images/sagebarista_pro.jpg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
         sizes: 'Domestic',
         colour: 'Black Truffle',
@@ -55,7 +55,7 @@ const products = [
     {
         _id: '5',
         name: 'Sage Oracle Touch Espresso Machine',
-        image: '/images/placeholder.webp',
+        image: '/images/sageOracle.jpg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
         sizes: 'Domestic',
         colour: 'Black Truffle',
@@ -69,7 +69,7 @@ const products = [
     {
         _id: '6',
         name: 'Coaltown Roastery Enamel Mug',
-        image: '/images/placeholder.webp',
+        image: '/images/enamalMug.jpg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
         sizes: '',
         colour: 'white',

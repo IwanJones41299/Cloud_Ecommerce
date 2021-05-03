@@ -4,8 +4,9 @@ import { Card } from 'react-bootstrap';
 import Rating from './Rating';
 
 const Product = ({ product }) => {
+
     return (
-        <Card className="my-3 p-3 rounded" style={{minHeight: "42vh"}}>
+        <Card className="my-3 p-3 rounded" style={{minHeight: "50vh", maxHeight: "50vh"}}>
             <Link to={`/product/${product._id}`}>
                 <Card.Img src={product.image} variant="top" />
             </Link>

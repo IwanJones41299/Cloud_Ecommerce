@@ -1,17 +1,6 @@
 version: '3.4'
 
 services:
-  expressserver:
-    image: expressserver
-    build:
-      context: server
-      dockerfile: ./Dockerfile
-    environment:
-      NODE_ENV: production
-    ports:
-      - 5000:5000
-    links: 
-      - mongodb
   mongodb:
       image: mongo:latest
       restart: always

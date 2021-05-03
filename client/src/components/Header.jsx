@@ -13,7 +13,7 @@ const Header = () => {
                 <Navbar bg="dark" variant="dark" className="browserNav">
                     <Container>
                         <LinkContainer to="/">
-                            <Navbar.Brand>Smile</Navbar.Brand>
+                            <Navbar.Brand>Whole Coffee</Navbar.Brand>
                         </LinkContainer>
                         <Nav className="ml-auto">
                             <LinkContainer to="/cart">
@@ -49,7 +49,7 @@ const Header = () => {
                 <Navbar bg="dark" variant="dark" expand="lg" className="browserNav">
                     <Container>
                         <LinkContainer to="/">
-                            <Navbar.Brand>Smile</Navbar.Brand>
+                            <Navbar.Brand>Whole Coffee</Navbar.Brand>
                         </LinkContainer>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
