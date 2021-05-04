@@ -1,7 +1,13 @@
-FROM node:12.18-alpine
+FROM node:10
+
 WORKDIR /usr/src/app
-COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
+
+COPY package*.json ./
+
 RUN npm install
+
 COPY . .
+
 EXPOSE 5000
-CMD ["npm run", "server.js"]
+
+CMD ["npm", "start"]
