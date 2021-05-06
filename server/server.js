@@ -1,8 +1,8 @@
 const express = require('express');
 const dotenv = require('dotenv') ;
 const connectDB = require('./config/db');
-// const mongoose = require('mongoose');
 const productRoutes = require('./routes/productRoute');
+const userRoutes = require('./routes/userRoutes');
 const port = process.env.PORT || 5000;
 const { notFound, errorHandler } = require('./middleware/errorMiddleware')
 
@@ -10,17 +10,16 @@ dotenv.config();
 
 const app = express();
 
-connectDB();
+app.use(express.json());
 
-// mongoose.connect('mongodb://mongo:27017/docker-ecommerce-website', { useNewUrlParser: true })
-//                 .then(() => console.log('MongoDB connected'))
-//                 .catch(err => console.log(err));
+connectDB();
 
 app.get('/', (req, res) => {
     res.send('API is running');
 })
 
 app.use('/api/products', productRoutes)
+app.use('/api/users', userRoutes)
 
 app.use(notFound)
 app.use(errorHandler)
